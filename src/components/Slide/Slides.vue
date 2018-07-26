@@ -80,8 +80,8 @@ export default {
     methods: {
         setVar(){
             this.$nextTick(() => {
-                console.log('clientWidth ->', this.$el.clientWidth)
-                console.log(this.$el.clientWidth / this.itemSlide)
+                // console.log('clientWidth ->', this.$el.clientWidth)
+                // console.log(this.$el.clientWidth / this.itemSlide)
                 let singleWidth = this.$el.clientWidth / this.itemSlide
                 this.singleWidth = singleWidth
                 this.innerWidth = singleWidth * this.images.length

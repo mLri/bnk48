@@ -68,7 +68,7 @@
         
 
         <div class="main_video_iframe">
-            <VideoIframe></VideoIframe>
+            <VideoIframe :embed="embed"></VideoIframe>
         </div>
     </div>
 </template>
@@ -91,7 +91,8 @@ export default {
                 { 'src': 'https://bnk48-www-html.s3-ap-southeast-1.amazonaws.com/uploads/images/file-1b6910b9d02e5fb862d95e120284f4a9.jpg'},
                 { 'src': 'https://bnk48-www-html.s3-ap-southeast-1.amazonaws.com/uploads/images/file-cac4266de32092197fffac0dbd63448b.png'},
                 { 'src': 'https://bnk48-www-html.s3-ap-southeast-1.amazonaws.com/uploads/images/file-28b229acd33d11f890af7fa4bd99110b.jpg'}
-            ]
+            ],
+            embed: "https://www.youtube.com/embed/4TKCbe8jyRI?control=0&amp;show_info=0"
         }
     }
 }

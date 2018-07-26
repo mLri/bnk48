@@ -2,7 +2,7 @@
     <div>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe 
-                src="https://www.youtube.com/embed/4TKCbe8jyRI?control=0&amp;show_info=0" 
+                :src="embed" 
                 allowfullscreen="allowfullscreen" 
                 class="embed-responsive-item">
             </iframe>
@@ -13,6 +13,12 @@
 <script>
 export default {
     name: 'VideoIframe',
+    props: {
+        embed: {
+            required: true,
+            type: String
+        }
+    },
     data () {
         return {
             
