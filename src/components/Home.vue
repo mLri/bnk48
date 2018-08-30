@@ -92,7 +92,7 @@ export default {
                 { 'src': 'https://bnk48-www-html.s3-ap-southeast-1.amazonaws.com/uploads/images/file-cac4266de32092197fffac0dbd63448b.png'},
                 { 'src': 'https://bnk48-www-html.s3-ap-southeast-1.amazonaws.com/uploads/images/file-28b229acd33d11f890af7fa4bd99110b.jpg'}
             ],
-            embed: "https://www.youtube.com/embed/4TKCbe8jyRI?control=0&amp;show_info=0"
+            embed: "https://www.youtube.com/embed/4TKCbe8jyRI?control=0&show_info=0"
         }
     }
 }

@@ -3,10 +3,12 @@
     <Header></Header>
 
     <router-view/>
-
-    <div class="footer">
-      <p>Copyright © 2018, BNK48 Office. All rights reserved.</p>
+    <div class="footer__main">
+      <div class="footer">
+        <p>Copyright © 2018, BNK48 Office. All rights reserved.</p>
+      </div>
     </div>
+    
   </div>
 </template>
 
@@ -42,6 +44,13 @@ h1, h2, h3, p {
 }
 
 /* FOOTER */
+  /* .footer__main {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+  } */
   .footer {
     float: left;
     width: 100%;
@@ -52,6 +61,10 @@ h1, h2, h3, p {
     font-size: .9em;
     line-height: 40px;
     font-weight: 500;
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
 /* --- END FOOTER --- */
 </style>
